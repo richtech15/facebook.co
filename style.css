@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to left,
+        white 0%,
+        white 50%,
+        blue 50%,
+        blue 100%
+    );
+}
+.inner{
+    display: flex;
+   
+.right{
+    padding-left: 50%;
+    padding-top: 200px;
+}
+.click{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 50px;
+
+}
+.fa_c{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.connect{
+    color: white;
+    font-size: 25px;
+    padding-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+    padding-top: 200px;
+}
+.input-field{
+    padding: 5px;
+    padding-right: 40px;
+}
+.code{
+    padding: 5px;
+    padding-right: 40px;
+}
+.agree{
+    color: rgba(100, 93, 93, 0.329);
+    padding-right: 30px;
+    margin-right: 3px;
+}
+.log{
+    color: blue;
+}
+.light{
+    color: rgba(100, 93, 93, 0.329);
+    padding-top: 80px;
+    margin-left: 40px;
+}
+.policy{
+    color: blue;
+}
+.cook{
+    color: blue;
+}
